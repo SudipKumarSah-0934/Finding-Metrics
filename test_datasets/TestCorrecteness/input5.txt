@@ -1,0 +1,13 @@
+void selSort(int x[], int n) {
+//Below function sorts an array in ascending order
+int i, j, min, temp;
+for (i = 0; i < n - 1; i++) {
+	min = i;
+	for (j = i + 1; j < n; j++)
+	if (x[j] < x[min])
+	min = j;
+	temp = x[i];
+	x[i] = x[min];
+	x[min] = temp;
+}
+}

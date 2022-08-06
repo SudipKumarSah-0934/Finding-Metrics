@@ -1,0 +1,11 @@
+void main()
+{
+	int fN, sN, tN;
+	cout << "Enter the 2 integers: ";
+	cin >> fN >> sN;
+	// sum of two numbers in stored in variable sum
+	sum = fN + sN;
+	// Prints sum
+	cout << fN << " + " << sN << " = " << sum;	
+	return 0;
+}

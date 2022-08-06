@@ -1,0 +1,7 @@
+class Test2 {
+public static string IntroducePerson(string name, int age)
+{
+    var response = "Hi! My name is {name} and I'm {age} years old.";
+    return response;
+}
+}
